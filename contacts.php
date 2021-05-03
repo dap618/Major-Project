@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Page Title</title>
+<title>Contacts</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -19,8 +19,11 @@ body {
 .header {
   padding: 80px;
   text-align: center;
-  background: #1abc9c;
-  color: white;
+  background-image: url("https://mlsvc01-prod.s3.amazonaws.com/dfb65dfc001/4a0d0bcf-6bbe-4173-8f3a-6ec71a5cd333.png?ver=1580163906000");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: black;
 }
 
 /* Increase the font size of the heading */
@@ -82,7 +85,13 @@ body {
   -ms-flex: 70%; /* IE10 */
   flex: 70%;
   background-color: white;
-  padding: 20px;
+  padding: 10px;
+}
+
+.container {
+  width: 100%;
+  height: 160px;
+  background-color: lightgrey;
 }
 
 /* Fake image, just for this example */
@@ -96,7 +105,6 @@ body {
 /* Footer */
 .footer {
   padding: 20px;
-  text-align: center;
   background: #ddd;
 }
 
@@ -124,31 +132,45 @@ body {
 </div>
 
 <div class="navbar">
-  <a href="CDFGuardian_website.php" class="active">Home</a>
-  <a href="contacts.php">Contacts</a>
+  <a href="index-CDF.php" >Home</a>
+  <a href="contacts.php" class="active">Contacts</a>
   <a href="#">Services</a>
   <a href="#">About</a>
 </div>
 
   <div class="main">
+    <div class="container">
     <h2>CEO: Wallberg Perkins</h2>
     <h5></b>Email:</b> wallbergperkins.ceo@gmail.com</h5>
     <h5 style="margin-top: -15px;"></b>Number:</b> 67844561</h5>
-    <div class="fakeimg" style="height:100px;"></div>
-    <br>
     <img style="width:30px;height:30px;" src="https://image.flaticon.com/icons/png/512/85/85435.png"><a style="margin-left:5px;"> @wallyperksboss</a>
+    </div>
     <br>
-    <h2>TITLE HEADING</h2>
-    <h5>Title description, Sep 2, 2017</h5>
-    <div class="fakeimg" style="height:200px;">Image</div>
-    <p>Some text..</p>
-    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <div class="container">
+    <h2>CTO/CIO: Evans Shirley</h2>
+    <h5></b>Email: evansshirley.cto@gmail.com </b></h5>
+    <h5 style="margin-top: -15px;"></b>Number:</b> 67569561</h5>
+    <img style="width:30px;height:30px;" src="https://image.flaticon.com/icons/png/512/85/85435.png"><a style="margin-left:5px;"> @shirleyvans</a>
+    </div>
+    <br>
+    <div class="container">
+    <h2>COO: Vegas Newton</h2>
+    <h5></b>Email: vegasnewton.coo@gmail.com  </b></h5>
+    <h5 style="margin-top: -15px;"></b>Number:</b> 68849674</h5>
+    <img style="width:30px;height:30px;" src="https://image.flaticon.com/icons/png/512/85/85435.png"><a style="margin-left:5px;"> @vegasnewton_coo </a>
+    </div>
+    <br>
+    <div class="container">
+    <h2>CFO: Degal Link</h2>
+    <h5></b>Email: degallink.finance@gmail.com  </b></h5>
+    <h5 style="margin-top: -15px;"></b>Number:</b> 65549674</h5>
+    <img style="width:30px;height:30px;" src="https://image.flaticon.com/icons/png/512/85/85435.png"><a style="margin-left:5px;"> @degal_link </a>
+    </div>
   </div>
 </div>
 
 <div class="footer">
-  <h2>Footer</h2>
+  <h2>Our Company Social Media: <img style="width:27px;height:27px;" src="https://image.flaticon.com/icons/png/512/85/85435.png"><a style="margin-left:5px;"> @cdfguardians</h2>
 </div>
-
 </body>
 </html>
