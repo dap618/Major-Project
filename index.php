@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Page Title</title>
+<title>HomePage</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -19,8 +19,11 @@ body {
 .header {
   padding: 80px;
   text-align: center;
-  background: #1abc9c;
-  color: white;
+  background-image: url("https://mlsvc01-prod.s3.amazonaws.com/dfb65dfc001/4a0d0bcf-6bbe-4173-8f3a-6ec71a5cd333.png?ver=1580163906000");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: black;
 }
 
 /* Increase the font size of the heading */
@@ -100,7 +103,6 @@ body {
 /* Footer */
 .footer {
   padding: 20px;
-  text-align: center;
   background: #ddd;
 }
 
@@ -132,15 +134,14 @@ body {
   <a href="contacts.php">Contacts</a>
   <a href="#">Services</a>
   <a href="#">About</a>
-  <a href="#" class="right">Link</a>
 </div>
 
 <div class="row">
   <div class="side">
-    <h2>About Me</h2>
-    <h5>Photo of me:</h5>
-    <div class="fakeimg" style="height:200px;">Image</div>
-    <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+    <h2>About</h2>
+    <img style="height:200px;width:400px;" src="https://mlsvc01-prod.s3.amazonaws.com/dfb65dfc001/4a0d0bcf-6bbe-4173-8f3a-6ec71a5cd333.png?ver=1580163906000">
+    <p><h3>CDFGuardians Pte Ltd</h3> is a cybersecurity company with its core business in penetration testing. This fictitious organisation was created to simulate a real life corporate environment for the sake of penetration testing as part of a major project. 
+  This is such that players of The Hacker's Playground would be able to practise and demonstrate cybersecurity skills used in the real world.</p>
     <h3>More Text</h3>
     <p>Lorem ipsum dolor sit ame.</p>
     <div class="fakeimg" style="height:60px;">Image</div><br>
@@ -163,7 +164,7 @@ body {
 </div>
 
 <div class="footer">
-  <h2>Footer</h2>
+  <h2>Our Company Social Media: <img style="width:27px;height:27px;" src="https://image.flaticon.com/icons/png/512/85/85435.png"><a style="margin-left:5px;"> @cdfguardians</h2>
 </div>
 
 </body>
